@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="/css/style.css")
+    title Document
+    script(src="/js/checkAuth.js")
+  body
+    h1 Admin Panel
+    ul(class="list")
+      each user in users
+        li(class="item" data-id=`${user.id}`)
+          img(src=`${images[String(user.id)]}` class="user-img")
+          input(type="file" data-type="image")
+          p Name:
+            input(class="name" type="text" value=`${user.name}` data-type=`name`)
+          p Mail:
+            input(class="name" type="text" value=`${user.mail}` data-type=`mail`)
+    button(id="save") Save
+    p(class="changes") Changed applied
+    div(class="add-panel")
+      p Photo:
+        input(type="file" id="newPhoto")
+      p Name:
+        input(type="text" id="newName")
+      p Mail:
+        input(type="text" id="newMail")
+    button(id="add") Add
+    script(src="/js/adminEdit.js")

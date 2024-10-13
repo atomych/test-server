@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+}
+
+input {
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.err {
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+    display: none;
+}

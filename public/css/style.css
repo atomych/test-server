@@ -1,0 +1,70 @@
+h1 {
+    color: #666;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    max-width: 1500px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.changes {
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+input {
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.add-panel {
+    font-size: 20px;
+    margin-top: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-panel p {
+    margin-right: 20px;
+}

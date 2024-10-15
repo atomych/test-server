@@ -1,7 +1,7 @@
 {
     "admin": {
-        "login": "admin",
-        "hashedPass": "$2b$15$H2hktQIh7BPTo7/SNB2Hwe2BdRMwMnJhvGCTx65kkqYp8/WUbZfEi",
+        "login": "admin25",
+        "hashedPass": "$2b$10$QXUsImluzHaesYDgXbzmwOfyW1gV1MAmTZi52rG3uC1PbfCGcf1ty",
         "secretKey": "fdsjij321imo1d"
     }
 }

@@ -4,7 +4,7 @@ const path = require("path");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const fs = require("fs");
-const port = 80;
+const port = process.env.PORT || 3000;
 
 let users = JSON.parse(fs.readFileSync("./database/users.json"));
 let images = JSON.parse(fs.readFileSync("./database/images.json"));
